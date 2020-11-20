@@ -76,7 +76,11 @@ class App extends Component {
           <button id="show-index" onClick={() => this.setState({ renderIndex: true })}>Show past entries</button>
         )
       }
+      break
+      default:
+        break
     }
+    
 
     return (
       <>
